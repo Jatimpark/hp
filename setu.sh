@@ -33,7 +33,7 @@ usermod -aG sudo $Username > /dev/null 2>&1
 clear
 export IP=$( curl -sS icanhazip.com )
 clear
-clear && clear && clear
+#clear && clear && clear
 clear;clear;clear
 echo -e "${BlueBee}╔════════════════════════════════════════════════╗${NC}"
 echo -e "\033[96;1m               DIGITAL PRODUK               \033[0m"
@@ -54,8 +54,8 @@ fi
 if [[ $( cat /etc/os-release | grep -w ID | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/ID//g' ) == "ubuntu" ]]; then
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗$NC"
 echo -e "${OK} Your OS Is Supported ( ${green}$( cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g' )${NC} )"
-echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"
-elif [[ $( cat /etc/os-release | grep -w ID | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/ID//g' ) == "debian" ]]; then
+#echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"
+#elif [[ $( cat /etc/os-release | grep -w ID | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/ID//g' ) == "debian" ]]; then
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗$NC"
 echo -e "${OK} Your OS Is Supported ( ${green}$( cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g' )${NC} )"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝ $NC"

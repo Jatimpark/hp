@@ -127,7 +127,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/Jatimpark/permission/main/hp/LTxFT/main/"
+REPO="https://raw.githubusercontent.com/Jatimpark/permission/main/hp/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -225,8 +225,8 @@ fi
 
 # // Get // No delete
 TIMES="10"
-CHATID="6355360734"
-KEY="6391755051:AAGG8rDAG2itscd-qHbRSeiCcpsgBUna5dQ"
+CHATID="2052109732"
+KEY="6626843753:AAEn7IAm0ljZhrafiohwD8E939A_aAtBQQY"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 
 # // install paket
